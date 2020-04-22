@@ -29,11 +29,11 @@ class ItemControl extends React.Component {
     let currentlyVisibleState = null;
     let buttonText = null;
     if (this.state.formVisibleOnPage) {
-      currentlyVisibleState = <NewItemForm onNewTicketCreation={this.handleAddingNewTicketToList} />;
+      currentlyVisibleState = <NewItemForm onNewItemCreation={this.handleAddingNewItemToList} />
       buttonText = "Return to Merchandise";
     } else {
       currentlyVisibleState = <Merchandise merchandiseList={this.state.masterMerchList}/>
-      buttonText = "add merchandise";
+      buttonText = "Add merchandise";
     }
     return (
       <React.Fragment>

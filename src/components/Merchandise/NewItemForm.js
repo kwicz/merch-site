@@ -28,6 +28,7 @@ function NewItemForm(props) {
           type='number'
           name='quantity'
           placeholder='Quantity'/>
+        <button type="submit">Add to Merchandise List</button>
       </form>
     </React.Fragment>
   );
