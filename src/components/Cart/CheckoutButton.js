@@ -4,7 +4,7 @@ import React from 'react';
 const CheckoutButton = () => {
   return (
     <React.Fragment>
-      <p>Checkout Button</p>
+      <button>Checkout</button>
     </React.Fragment>
   );
 }

@@ -1,29 +1,35 @@
 import React from 'react';
 import Item from './Item';
-import { v4 } from 'uuid';
+import PropTypes from 'prop-types';
 
-const masterMerchList = [
-  {
-    name: 'Tuxedo Snuggie',
-    price: 30,
-    description: 'Perfect for being comfortable while video conferencing into prom.'
-  }
-]
+// const merchandiseList = [
+//   {
+//     name: 'Tuxedo Snuggie',
+//     price: 30,
+//     description: 'Perfect for being comfortable while video conferencing into prom.'
+//   }
+// ]
 
-const Merchandise = () => {
+function Merchandise(props) {
   return (
     <React.Fragment>
-      <p>Merchandise</p>
-      {masterMerchList.map((item, index) => 
+      <hr/>
+      {props.merchandiseList.map((item, index) => 
         <Item 
           name={item.name}
           price={item.price}
           description={item.description}
+          quantity={item.quantity}
           key={index}/>
-      )}
+        )};
+
     </React.Fragment>
   );
 }
+
+Merchandise.propTypes = {
+  merchandiseList: PropTypes.array
+};
 
 
 export default Merchandise;

@@ -4,7 +4,7 @@ import React from 'react';
 const Total = () => {
   return (
     <React.Fragment>
-      <p>Total</p>
+      <p>Total: </p>
     </React.Fragment>
   );
 }

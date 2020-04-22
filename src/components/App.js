@@ -1,15 +1,16 @@
 import React from "react";
 import Header from "./Layout/Header";
-import Cart from "./Cart/Cart";
-import Merchandise from "./Merchandise/Merchandise";
+// import CartControl from './CartControl';
+import Footer from './Layout/Footer';
+import ItemControl from "./Merchandise/ItemControl";
 
 
 function App(){
   return (
     <React.Fragment>
       <Header />
-      <Merchandise />
-      <Cart />
+      <ItemControl />
+      <Footer />
     </React.Fragment>
   );
 }
