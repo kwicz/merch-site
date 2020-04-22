@@ -21,7 +21,7 @@ function Merchandise(props) {
           description={item.description}
           quantity={item.quantity}
           key={index}/>
-        )};
+        )}
 
     </React.Fragment>
   );

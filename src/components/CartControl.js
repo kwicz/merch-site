@@ -33,7 +33,7 @@ class CartControl extends React.Component {
       buttonText = "Return to Merchandise";
     } else {
       currentlyVisibleState = <Merchandise merchandise={this.state.masterMerchList}/>
-      buttonText = "add Merchandise";
+      buttonText = "Add Merchandise";
     }
     return (
       <React.Fragment>
