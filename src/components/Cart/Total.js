@@ -1,10 +1,11 @@
 import React from 'react';
 
 
-function Total() {
+const Total = () => {
   return (
-  <p>Total</p>
-  )
+    <React.Fragment>
+      <p>Total</p>
+    </React.Fragment>
+  );
 }
-
 export default Total;

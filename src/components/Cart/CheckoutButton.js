@@ -1,10 +1,12 @@
 import React from 'react';
 
 
-function CheckoutButton() {
+const CheckoutButton = () => {
   return (
-  <p>CheckoutButton</p>
-  )
+    <React.Fragment>
+      <p>Checkout Button</p>
+    </React.Fragment>
+  );
 }
 
 export default CheckoutButton;

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from "prop-types";
-import { v4 } from 'uuid';
+// import { v4 } from 'uuid';
 
 const Item = (props) => {
   return (
@@ -8,11 +8,11 @@ const Item = (props) => {
       <h3>{props.name}</h3>
       <h4><em>{props.price}</em></h4>
       <p>{props.description}</p>
-      {/* <Button {pass some data here}/> */}
+      <button>Add to Cart</button>
     </React.Fragment>
   );
 };
-item.id = v4()
+// item.id = v4()
 
 Item.propTypes = {
   name: PropTypes.string,

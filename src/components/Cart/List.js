@@ -1,10 +1,13 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
 
-function List() {
+const List = () => {
   return (
-  <p>List</p>
-  )
+    <React.Fragment>
+      <p>List</p>
+    </React.Fragment>
+  );
 }
 
 export default List;
