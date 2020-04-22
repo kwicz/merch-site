@@ -1,7 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Merchandise Site
 
-## Available Scripts
+#### An e-commerce site to select items, add them to your cart, and purchase them.
 
+#### By Patrick Delaney, Steph Podolak, Katy Solovewicz, and Matt Taylor
+
+## Components Hierarchy
+
+Component Diagram
+
+![Components](src/img/ComponentDiagram.png)
+
+Component Wireframe
+
+![Wireframe](src/img/MerchSiteWireframe.png)
+
+## Setup/Installation Requirements
 In the project directory, you can run:
 
 ### `npm start`
@@ -37,32 +50,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Support and Contact Details
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/kwicz/merch-site/issues) here on GitHub._
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright (c) 2020 **_Patrick Delaney, Steph Podolak, Katy Solovewicz, and Matt Taylor_**
