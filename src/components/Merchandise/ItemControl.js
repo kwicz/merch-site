@@ -47,9 +47,10 @@ class ItemControl extends React.Component {
     let currentlyVisibleState = null;
     let buttonText = null;
 
-    if (this.state.selectedItem != null) {
+      if (this.state.selectedItem != null) {
       currentlyVisibleState = <ItemDetail
-        item = {this.state.selectedItem} />
+        item = {this.state.selectedItem}
+        onClickingDelete = {this.handleDeletingItem} />
       buttonText = "Return to Merchandise";
     }
     else if (this.state.formVisibleOnPage) {
